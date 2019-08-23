@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function isInputNumber(evt){
+	var ch=String.fromCharCode(evt.which);
+	
+	if(!(/[0-9]/.test(ch) && ch.length<=10)){ 
+		evt.preventDefault();
+	}
+}
+</script>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="reg.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+</head>
+<style>
+body {
+  background: url(nature8.jpg) no-repeat center fixed;
+  /* fallback for old browsers */
+
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-oblique;
+}
+</style>
+<body>
+<center><h3><font color="orange" size="20"><i>TEMPLE MANAGEMENT</i></font></h3></center>
+  <marquee direction="left"><font color="orange">Om Shri Manjunathaya Namaha</font></marquee>
+	<!-- main -->
+	<div class="main-w3layouts wrapper">
+		
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form action="alalysis2update.jsp" method="post">
+					<label for="sal"><font color=white>Total Sale:</font></label><input type="text" id="sal" name="cn" placeholder="enter sale rate" onkeypress="return isInputNumber(event);"/><br>
+					<label for="amt"><font color=white>Amount Received:</font></label><input type="text" id="amt" name="cp" placeholder="enter total amount" onkeypress="return isInputNumber(event);"/><br>
+					<label for="sal"><font color=white>Product Id:</font></label><input type="text" id="prid" name="cq" placeholder="enter product id"><br>
+					</font>
+
+					<div class="wthree-text">
+						
+						<div class="clear"> </div>
+					</div>
+					<input type="submit" value="SUBMIT">
+					<center> <a href="ays1.html"><font color=white>Back</font></center>
+				</form>
+				
+			</div>
+		</div>
+		
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+</body>
+</html>

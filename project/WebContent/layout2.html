@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html { 
+  background: url(nature6.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topnav-right {
+  float: right;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Style the header */
+.header {
+    background-color: glass;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: glass;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: glass;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: glass;
+    color: glass;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+footer {
+    background-color: glass;
+    padding: 10px;
+    text-align: center;
+    color: glass;
+}
+.footer {
+    background-color: glass;
+    text-align: center;
+    padding: 10px;
+}
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+marquee {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+i {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+p {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+</style>
+</head>
+<body>
+<div class="bg">
+<div class="header">
+  <header>
+  <h1><i><font color="orange" size="20">TEMPLE MANAGEMENT</font></i></h1>
+  <marquee direction="left"><font color="orange">Om Shri Manjunathaya Namaha</font></marquee>
+</header>
+</div>
+
+<div class="topnav-right">
+  <a href="login2.html"><font color=red size="4">Login</font></a>
+  
+</div>
+
+<div class="row">
+  <div class="column side">
+    <i><font color="white">Notifications</i></font>
+      <marquee direction="up"><font color="white">
+      Temple will be open from 6:00 AM
+      to 5:00 then 6:00 PM TO 9:00PM</font>
+      <br>
+      <br><font color="white">
+      Pooja starts at 7:00 AM</font><br>
+      <br><font color="white">
+      Temple temporarily remain close
+      from 11:30 AM to 12:00 PM</font><br>
+      <br><font color="white">
+      Maha[pooja at 12:00 AM</font><br>
+      <br>
+      <font color="white">
+      Bhojanalaya will be open from 10:00 AM
+      to 4:00 then 7:00 PM TO 10:00PM
+      <br>
+      </font>
+     
+     
+      </marquee>
+  </div>
+  <div class="column middle">
+    <div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="1200px-Dharmasthala_1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="temple4.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="temple3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="shiva7.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="temple11.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="shiva.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="shiva3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+   
+   
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+    
+  </div>
+  <div class="column side">
+  
+   <i><font color="white"><center>Seva Prasadas</center></font></i></font>
+      <marquee direction="up"><center></center><font color="white">
+      Set Prasada-1200RS</font>
+      <br>
+      <br><font color="white">
+      Set Prasada-800RS
+      </font><br>
+      <br><font color="white">
+      Set Prasada-400RS</font><br>
+      <br><font color="white">
+      Set Prasada-250RS</font><br>
+      <br>
+      <font color="white">
+      Set Prasada-100RS
+      </font><br>
+      <br>
+      <font color="white">
+      Panchakajjaya-30RS
+      </font><br>
+      <br>
+      <font color="white">
+      Bella kai-30RS
+      </font><br>
+      <br>
+      <font color="white">
+      Theertha Bottle-20RS
+      </font>
+      </center>
+      </marquee>
+  </div>
+</div>
+  <footer>
+<font color="black"><p>Dharmasthala Temple (Kannada/Tulu:ಶ್ರೀ ಕ್ಷೇತ್ರ ಧರ್ಮಸ್ಥಳ) (Sanskrit: क्षेत्र धर्मस्थल Kṣētra Dharmasthala) is an 800-year-old[1] religious institution in the temple town of Dharmasthala in Dakshina Kannada, Karnataka, India. The deities of the temple are Shiva, who is referred to as Mañjunatha, Ammanavaru, the tirthankara Chandraprabha and the protective gods of Jainism, Kalarahu, Kalarkayi, Kumarasvami and Kanyakumari. The temple is considered unique[2] since it belongs to the Shaiva sect of Hinduism. The priests are Shivalli Brahmins, who are Vaishnava, and the administration is run by a Jain Bunt family called the Pergades.</p>
+<p>800 years ago, Dharmasthala was known as Kuduma in Mallarmadi, then a village in Belthangady. Here lived the Jain Bunt chieftain Birmanna Pergade and his wife Ammu Ballalthi in a house called Nelliadi Beedu. According to the legend, the guardian angels of Dharma assumed human forms and arrived at Pergade's abode in search of a place where Dharma was being practised and could be continued and propagated. As was their habit, the couple hosted these illustrious visitors with all their wherewithal and great respect. Pleased by their sincerity and generosity, that night the Dharma Daivas appeared in the dreams of Pergade. They explained the purpose of their visit to him and instructed him to vacate his house for the worship of the Daivas and dedicate his life to the propagation of Dharma. Asking no questions, the Pergade built himself another house and began worshiping the Daivas at Nelliadi Beedu.</p>
+<p>This worship of daivas continues. The Dharma Daivas again appeared before Pergade to build separate shrines to consecrate the four Daivas — Kalarahu, Kalarkayi, Kumaraswamy and Kanyakumari. Also, Pergade was instructed to choose two persons of noble birth to act as the Daivas' oracles and four worthy persons to assist Pergade in his duties as the executive head of the shrines. In return, the Daivas promised Pergade protection for his family, abundance of charity and renowned for the 'Kshetra'. Pergade, as desired, built the shrines and invited Brahmin priests to perform the rituals. These priests requested Pergade to install a Shivalinga beside the native Daivas. The Daivas then sent their vassal Annappa Swamy to procure the linga of Shiva from Kadri Manjunath Temple, near Mangalore. Subsequently, the Manjunatha temple was built around the linga</p>
+</font></footer>
+
+</div>
+</body>
+</html>

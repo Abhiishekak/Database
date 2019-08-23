@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function a(event){
+	var char=event.which;
+	if(char>31 && char!=32 && (char<65 || char>90) && (char<97 || char>122)){
+		return false;
+	}
+}
+</script>
+<script type="text/javascript">
+function isInputNumber(evt){
+	var ch=String.fromCharCode(evt.which);
+	
+	if(!(/[0-9]/.test(ch) && ch.length<=10)){ 
+		evt.preventDefault();
+	}
+}
+</script>
+<style>
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}</style>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="reg.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
+</head>
+<style>
+body {
+  background: url(shiva.jpg) no-repeat center fixed;
+  /* fallback for old browsers */
+
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-oblique;
+}
+</style>
+<body>
+
+</script>
+<center><h3><i><font color="orange" size="20">TEMPLE MANAGEMENT</font></i></h3></center>
+  <marquee direction="left"><font color="orange">Om Shri Manjunathaya Namaha</font></marquee>
+	<!-- main -->
+	<div class="main-w3layouts wrapper">
+		<h1><font color=yellow>Employee Registration Form</font></h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form action="studreg_insert.jsp" method="post">
+					<label for="eid"><font color=white>Employee Id:</font></label><input type="text" id="eid" name="cn" placeholder="enter emp_id"><br>
+					<label for="ename"><font color=white>Employee Name:</font></label><input type="text" id="eid" name="cp" placeholder="enter emp_name" onkeypress="return a(event);"/><br>
+					<label for="eaddr"><font color=white>Employee Address:</font></label><input type="text" id="eid" name="cq" placeholder="enter emp_address"><br>
+					<label for="epn"><font color=white>Employee Phone Number:</font></label><input type="text" id="eid" name="cr" placeholder="enter emp_phone" maxlength="10" onkeypress="return isInputNumber(event);"/><br>
+					<label for="gender"><font color=white>GENDER:</label><br><br>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female</font>
+<br><br>
+					<div class="wthree-text">
+						
+						<div class="clear"> </div>
+					</div>
+					<input type="submit" value="SUBMIT">
+					 <center> <a href="reg1.html"><font color=white>Back</font></center>
+					
+				</form>
+				
+			</div>
+		</div>
+		
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!-- //main -->
+</body>
+</html>
